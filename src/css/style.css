@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+}
+
+h1, h2, h3, p, a {
+    color: #8c7b27 !important;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 30px !important;
+}
+
+ul {
+    list-style: none;
+}
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: #d6c64f;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-container, .footer-container {
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.header-menu-list {
+    margin: 0;
+}
+
+.header-menu-item {
+    list-style: none;
+    line-height: 20px;
+}
+
+.header-menu-item a {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    line-height: 56px;
+}
+
+.content {
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.gallery-section .gallery-section-list .gallery-section-item img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.carousel-section .carousel-item img {
+    height: 600px;
+}
+
+.content-carousel-section .carousel-item .carousel-item-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-carousel-section .carousel-item.nth-1 .carousel-item-img {
+    background-image: url("/home/alina/University/Человеко-машинное взаимодействие/Wine&Dream/src/img/slider.jpg");
+}
+
+.content-carousel-section .carousel-item.nth-2 .carousel-item-img {
+    background-image: url("/home/alina/University/Человеко-машинное взаимодействие/Wine&Dream/src/img/slider-2.jpg");
+}
+
+.content-carousel-section .carousel-item-img {
+    height: 60vh;
+}
+
+.contact-section .contact-section-item {
+    border: 1px solid #c3c3c3;
+    margin-right: 20px;
+}
+
+.contact-section .contact-section-item:last-child {
+    margin-right: 0;
+}
+
+li {
+    color: #8c7b27 !important;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section .contact-section-item-title h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media li img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-section .contact-section-item-content {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.map-section .map-section-container img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border: 4px solid #c3c3c3;
+}
+#footer{
+    background-color: #d6c64f;
+    height: auto;
+}
+.footer-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.footer-container .row{
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-container .footer-section-item-title h3{
+    text-align: start;
+}
+.footer-container .footer-section-item:nth-child(2) ul li{
+    margin: 7px 0;
+}
+.footer-container .footer-section-item:nth-child(1), .footer-container .footer-section-item:nth-child(4){
+    margin: auto;
+}
