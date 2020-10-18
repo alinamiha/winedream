@@ -1,4 +1,3 @@
 $('.carousel').carousel({
-    interval: 1500,
-    keyboard: true
+    interval: 1500
 })
