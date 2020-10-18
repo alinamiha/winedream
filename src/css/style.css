@@ -82,11 +82,11 @@ section {
 }
 
 .content-carousel-section .carousel-item.nth-1 .carousel-item-img {
-    background-image: url("/home/alina/University/Человеко-машинное взаимодействие/Wine&Dream/src/img/slider.jpg");
+    background-image: url("/src/img/slider.jpg");
 }
 
 .content-carousel-section .carousel-item.nth-2 .carousel-item-img {
-    background-image: url("/home/alina/University/Человеко-машинное взаимодействие/Wine&Dream/src/img/slider-2.jpg");
+    background-image: url("/src/img/slider-2.jpg");
 }
 
 .content-carousel-section .carousel-item-img {
