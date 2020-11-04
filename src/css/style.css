@@ -345,4 +345,10 @@ li {
     .contact-section-container .row .col{
         margin-bottom: 20px;
     }
+    .content-carousel-section .carousel-item-img{
+        height: 200px;
+    }
+    .gallery-section .gallery-section-list .gallery-section-item img{
+        height: 100px;
+    }
 }
